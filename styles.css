@@ -20,6 +20,7 @@ body {
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Box shadow for elevation */
   }
   
+  /*Look of the app*/
   #display {
     grid-column: span 4;
     font-size: 2.5rem;
@@ -32,6 +33,8 @@ body {
     color: #2c3e50; /* Text color for readability */
   }
   
+
+  /*Buttons*/
   .btn {
     font-size: 1.5rem;
     border: none;
@@ -56,7 +59,7 @@ body {
   .equal {
     background-color: #f39c12;
     color: white;
-    grid-column: span 2; /* Equal button spans 2 columns */
+    grid-column: span 2;
     border-radius: 10px;
   }
   
